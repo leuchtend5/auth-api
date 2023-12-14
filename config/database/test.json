@@ -1,0 +1,7 @@
+{
+  "user": "postgres",
+  "password": "supersecret",
+  "host": "auth-api.cqxzd5oea1tr.ap-southeast-1.rds.amazonaws.com",
+  "port": 5432,
+  "database": "authapi_test"
+}
