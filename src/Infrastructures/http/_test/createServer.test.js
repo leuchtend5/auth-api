@@ -63,7 +63,6 @@ describe('HTTP server', () => {
       });
 
       // Assert
-      console.log(response.payload);
       const responseJson = JSON.parse(response.payload);
       expect(response.statusCode).toEqual(201);
       expect(responseJson.status).toEqual('success');
