@@ -20,8 +20,6 @@ class UsersHandler {
       },
     });
 
-    console.log(response.code);
-
     response.code(201);
     return response;
   }
