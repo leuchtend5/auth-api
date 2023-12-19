@@ -11,8 +11,6 @@ class UsersHandler {
     const addUserUseCase = this._container.getInstance(AddUserUseCase.name);
     const addedUser = await addUserUseCase.execute(request.payload);
 
-    console.log(addedUser);
-
     const response = h.response({
       status: 'success',
       data: {
